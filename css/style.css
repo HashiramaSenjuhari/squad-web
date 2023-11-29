@@ -164,25 +164,123 @@ button
 .container
 {
   width: 100vw;
-  height: 80vh;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.628);
+  height: 100vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.292);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+.container h1
+{
+  display: block;
+  margin: 0px 60px;
+}
 .container span
 {
   display: block;
-  height: 35vh;
-  width: 15vw;
+  height: 45vh;
+  width: 16vw;
   border: 1px solid rgba(0, 0, 0, 0.148);
   margin-left: 10px;
   box-shadow: 6px 10px 23px -1px rgba(0, 0, 0, 0.09);
   -webkit-box-shadow: 6px 10px 23px -1px rgba(0, 0, 0, 0.124);
   -moz-box-shadow: 6px 10px 23px -1px rgba(0,0,0,0.25);
+  box-sizing: content-box;
+}
+.container > span > img
+{
+  position: absolute;
+  width: 170px;
+  height: 200px;
+  margin: 10px 28px;
+  border-radius: 5px;
+  box-shadow: 6px 10px 23px -1px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 6px 10px 23px -1px rgba(0, 0, 0, 0.124);
+  -moz-box-shadow: 6px 10px 23px -1px rgba(0,0,0,0.25);
+}
+.container > span > p
+{
+  /* position: absolute; */
+  text-align: center;
+  margin: 220px 0px auto;
+  color: rgb(0, 0, 0);
 }
 .container > span > button
 {
-  
+  width: 10rem;
+  height: 3rem;
+  margin: 10px 35px auto;
+  position: absolute;
+  background: #000000b1;
+}
+.container > span > button:hover
+{
+  background: #000000;
+}
+#ab img
+{
+  width: 170px;
+  margin: 10px 35px;
+}
+#ha img
+{
+  width: 160px;
+  margin: 10px 35px;
+}
+.game-h
+{
+  text-align: center;
+  font-size: 1.7rem;
+  height: 15vh;
+  box-shadow: 0px 10px 23px -1px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 10px 23px -1px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 10px 23px -1px rgba(0,0,0,0.25);
+}
+.game-container
+{
+  width: 100vw;
+  height: 45vh;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.368); */
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px -24px 23px -1px rgba(0, 0, 0, 0.02) inset;
+  -webkit-box-shadow: 0px -24px 23px -1px rgba(0, 0, 0, 0.060) inset;
+  -moz-box-shadow: 0px -24px 23px -1px rgba(0, 0, 0, 0.10) inset;
+}
+.game-container span
+{
+  width: 16vw;
+  height: 37vh;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 2px;
+  box-shadow: 6px 10px 23px -1px rgba(0, 0, 0, 0.020);
+  -webkit-box-shadow: 6px 10px 23px -1px rgba(0, 0, 0, 0.20);
+  -moz-box-shadow: 6px 10px 23px -1px rgba(0,0,0,0.20);
+}
+.game-container::-webkit-scrollbar-thumb {
+  background-color: transparent; /* color of the thumb */
+}
+.game-container::-webkit-scrollbar {
+  width: 0.000001rem; 
+}
+.game-container img
+{
+  width: 14vw;
+  height: 26vh;
+  margin: 10px 0px ;
+}
+.footer-above
+{
+  height:38vh
+}
+.footer
+{
+  height: 5vh;
+  background-color: #000000;
+  color: #ffffff;
 }
